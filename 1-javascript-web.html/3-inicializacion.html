@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>inicalización</title>
+  <script>
+    function inicializar() {
+      document.getElementById('parrafo1').style.color = 'red';
+    }
+
+    function inicializarAno() {
+      var ano = new Date().getFullYear();
+      document.getElementById('ano').value = ano;
+    }
+
+    window.addEventListener('load', inicializar);
+    document.addEventListener('DOMContentLoaded', inicializarAno)
+
+    //window.onload = inicializarAno;
+  </script>
+</head>
+<body>
+  
+  <h1>load vs DOMContentLoaded</h1>
+  <p id="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit tenetur voluptatem accusamus ipsa quis recusandae ullam assumenda culpa saepe hic? Maiores soluta ea quisquam nisi saepe voluptate maxime illo nesciunt.</p>
+  <p>Fugiat officiis ipsa repudiandae aliquam harum, placeat mollitia autem aliquid, architecto ut sapiente, asperiores nobis dignissimos iste omnis inventore. Ipsa suscipit a adipisci ab, accusamus laborum consequatur esse voluptas vel?</p>
+  <p>Molestias voluptatem esse, sunt, hic quod autem dolore iure itaque accusamus facere, placeat fugiat. In sapiente veniam enim assumenda dolorum suscipit qui ut accusantium repellendus ea, neque nam, nemo officia!</p>
+
+  Año: <input type="text" id="ano">
+ 
+</body>
+</html>

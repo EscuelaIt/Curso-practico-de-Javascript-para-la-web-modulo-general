@@ -1,0 +1,13 @@
+EJERCICIOS
+==========
+
+1.- Coloca un script en tu página con un mensaje de bienvenida
+
+2.- Haz una página con dos campos de texto. 
+En la inicialización los campos de texto deben aparecer rellenados con el valor 
+  - "uno" en el primer campo de texto
+  - "dos" en el segundo campo de texto
+
+3.- En Javascript defines un array con varios nombres de ciudades, por ejemplo ["Madrid", "Barcelona", "Valencia", "Sevilla", "Bilbao"]
+Recorre ese array de ciudades y genera un mensaje con cada una de ellas.
+
