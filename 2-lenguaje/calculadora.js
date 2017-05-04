@@ -1,0 +1,1 @@
+document.getElementById('suma').addEventListener('click', suma);

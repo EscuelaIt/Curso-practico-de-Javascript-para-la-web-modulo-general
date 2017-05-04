@@ -1,0 +1,13 @@
+1.- Realizar operaciones para nuestra calculadora (-, *, /)
+
+2.- Solicitar la edad del usuario, si es 18 o menos decirle que no puede estar aquí.
+
+3.- En nuestra calculadora comprobar que la operación no devuelve NaN, 
+alertar que no se puede realizar la operación si es el caso, en vez de mostrar NaN como resultado
+
+4.- Hacer una función que compruebe si en un array todos los valores son numéricos.
+La función debe devolver un boleano (true o false) dependiendo si son todos números o no.
+
+5.- Hacer una función que, de un array de números, devuelva el máximo. 
+Otra que devuelva el mínimo.
+
