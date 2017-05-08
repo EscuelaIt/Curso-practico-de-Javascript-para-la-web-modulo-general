@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM</title>
+</head>
+<body>
+  <form action="post.php" id="f" name="elformulario">
+    <label for="campo" id="etiqCampo">Campo de texto:</label>
+    <input type="text" name="campo" size="40" id="c1">
+  </form>
+
+  <script>
+    console.log(document.forms[0].action);
+    //document.forms[0].elements[0].value = 'Hola a todos!!';
+    //document.forms[0].campo.value = 'Hola a todos en el campo!!';
+    document.forms.elformulario.campo.value = 'Hola a todos en el campo 2!!';
+
+    //document.getElementById('etiqCampo').textContent = 'aki!!';
+    document.getElementById('etiqCampo').addEventListener('click', cambiaFoco);
+    
+    function cambiaFoco() {
+      document.forms.elformulario.campo.focus();
+    }
+
+    document.getElementById('c1').addEventListener('keyup', function() {
+      //this ----> objeto sobre el cual se ha detectado el evento
+      console.log('Lo que hay escrito es ', this.value);
+    });
+  
+
+  </script>
+</body>
+</html>
